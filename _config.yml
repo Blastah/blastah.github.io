@@ -1,0 +1,63 @@
+# Site Info
+title: '데이터분석 같은 소리하네'
+tagline: '데이터분석 같은 소리하네'
+description: '데이터분석을 공부하는 초보 마케터'
+baseurl: ""
+url: https://blastah.github.io
+logo:
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: PARK JUNSOO
+  description:
+  contact:
+    # linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/blastah
+    #facebook:  https://www.facebook.com/wayhome25
+    # twitter:   https://twitter.com/Li_Zhihao
+    # weibo:     http://weibo.com/41173780
+    email:    mailto:juns.park.89@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Categories:
+    - '/'
+    # - { Categories All: '/blog/categories/' }
+    - { HTML: '/blog/categories/#html' }
+    - { CSS : '/blog/categories/#css' }
+    - { Django: '/blog/categories/#django' }
+    - { Python: '/blog/categories/#python' }
+    - { Javascript: '/blog/categories/#javascript' }
+    - { MySQL: '/blog/categories/#mysql' }
+    - { etc: '/blog/categories/#etc' }
+    # - { Tags: '/blog/tags/' }
+  About:
+    - '/about/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: '' # leave blank if you don't want google analytics
+disqus_short_name: '' # leave blank if you don't want disqus
